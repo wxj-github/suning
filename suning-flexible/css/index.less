@@ -1,0 +1,189 @@
+// 超过750px的屏幕按照750的比例来算，不然下面10rem就会超过750px
+@media screen and (min-width: 750px){
+  html{
+      font-size: 75px !important;
+  }
+};
+
+
+body{
+  min-width: 320px;
+  // max-width: 750px;      //写了@media这里就没必要了
+  width: 10rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding:  0;
+  background-color: #f2f2f2; 
+}
+
+
+a{
+  text-decoration: none;
+}
+
+input{
+  border: 0;
+  outline: none;
+}
+
+.top-ad{
+  width: 10rem;
+  height: 1.333333rem;
+}
+
+.top{
+  width: 10rem;
+  height: 4.533333rem;
+  background-color: #FFDB47;
+  margin-top: -0.066667rem;
+  .list{
+    float: left;
+    width: 0.48rem;
+    height: 0.8rem;
+    background: url('../images/list.png') no-repeat;
+    background-size: 0.48rem 0.8rem;
+    margin: 0.2rem 0.466667rem ;
+  }
+  .login{
+    float: right;
+    width: 0.48rem;
+    height: 0.8rem;
+    background:url('../images/login-logo.png') no-repeat;
+    background-size: 0.48rem 0.8rem;
+    margin: 0.2rem 0.466667rem ;
+  }
+  .top-center{
+    width: 5.2rem;
+    height: 1.013333rem;
+    margin: 0.16rem 0 0 1.066667rem;
+  }
+  .sousuo{
+    position: relative;
+    .sousuo-logo{
+      width: 0.64rem;
+      height: 0.64rem;
+      position: absolute;
+      left: 0.466667rem;
+      top: 0.266667rem;
+    }
+    .search{
+    display: block;
+    width: 8.426667rem;
+    height: 1.173333rem;
+    margin: 0 auto;
+    font-size: 0.4rem;
+    border-radius: 0.586667rem;
+    padding-left: 0.933333rem;
+    color: #909075bf;
+    }
+  }
+  
+}
+
+.ning{
+  width: 9.333333rem;
+  height: 3.066667rem;
+  background: url('../images/ning.png') 0 85%;
+  background-size: 9.333333rem 5.333333rem ;
+  border-radius: 0.266667rem;
+  margin: 0.266667rem auto 0;
+}
+
+
+.ad{
+  width: 10rem;
+  display: flex;
+  margin-top: 1.333333rem;
+  a{
+    display: block;
+    flex: 1;
+    width: 3.333333rem;
+    height: 3.733333rem;
+  }
+  .left{
+    background:url('../images/a.gif') no-repeat;
+    background-size: 3.333333rem 3.733333rem;
+  }
+  .center{
+    background:url('../images/b.gif') no-repeat;
+    background-size: 3.333333rem 3.733333rem;
+  }
+  .right{
+    background:url('../images/c.gif') no-repeat;
+    background-size: 3.333333rem 3.733333rem;
+  }
+}
+
+.tes{
+  width: 10rem;
+  height: 1500px;
+}
+
+nav{
+  width: 10rem;
+  background-color: white;
+  margin: 0.133333rem;
+  a{
+    width: 2rem;
+    height: 1.893333rem;
+    float: left;
+    text-align: center;
+    img{
+      width: 1.12rem;
+      height: 1.12rem;
+    }
+    p{
+      font-size: 0.333333rem;
+      margin: 0;
+      color: #333;
+    }
+  }
+}
+
+.new{
+  width: 10rem;
+  a{
+    float: left;
+  }
+  .left{
+    width: 5.006667rem;
+    height: 3.12rem;
+    background: url('../images/new-left.png') no-repeat;
+    background-size: 5.006667rem 3.12rem;
+  }
+  .center{
+    width: 2.483333rem;
+    height: 3.12rem;
+    background: url('../images/new-center.gif') no-repeat;
+    background-size: 2.483333rem 3.12rem;
+  }
+  .right{
+    width: 2.483333rem;
+    height: 3.12rem;
+    background: url('../images/new-right.gif') no-repeat;
+    background-size: 2.483333rem 3.12rem;
+  }
+}
+
+
+.tab{
+  width: 10rem;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  a{
+    width: 2rem;
+    height: 1.333333rem;
+    float: left;
+    text-align: center;
+    img{
+      width: 0.64rem;
+      height: 0.64rem;
+    }
+    p{
+      font-size: 0.333333rem;
+      color: #333;
+      margin: 0;
+    }
+  }
+}
